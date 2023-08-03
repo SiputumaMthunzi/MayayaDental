@@ -172,7 +172,9 @@ nav .menu-btn,
     align-items: center;
     justify-content: center;
     padding-top: 40px ;
-    background-color: #008f7c;
+    background-size: cover;
+    background: linear-gradient(4deg, rgba(174,191,207,1) 0%, rgba(22,121,212,1) 100%);
+
 }
 #services h1{
     color: #f1f0f0;
@@ -205,9 +207,10 @@ nav .menu-btn,
   }
 }
 .a-box{
-    background-color: #013530;
+    background: linear-gradient(4deg, rgba(174,191,207,1) 0%, rgba(81,167,118,1) 100%);
+
     width:250px;
-    height: 400px;
+    height: 340px;
     margin: 20px;
     border-radius: 10px;
     overflow: hidden;
