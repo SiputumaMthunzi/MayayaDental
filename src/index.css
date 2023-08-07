@@ -52,6 +52,19 @@ input{
     height: 100%;
     z-index: -1;
 }
+#Treatment::before{
+    position: absolute;
+    content: "";
+    background: -moz-radial-gradient(center, ellipse cover, rgba(89, 173, 230, 0.38) 0%, rgba(32, 65, 109, 0.6) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(96, 183, 218, 0.38) 0%, rgba(32, 65, 109, 0.6) 100%);
+    background: radial-gradient(ellipse at center, rgba(67, 125, 179, 0.38) 0%, rgba(32, 65, 109, 0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61b50808', endColorstr='#99000000',GradientType=1 );
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
 nav{
 	display: flex;
 	justify-content: space-around;
@@ -162,9 +175,12 @@ nav .menu-btn,
     border: 2px solid #0099ff;
 }
 
+
+
+
 #services{
     width:100%;
-    height:120vh;
+    height:150vh;
     box-sizing: border-box;
     font-family:'Lato';
     display: flex;
@@ -360,6 +376,24 @@ nav .menu-btn,
 	padding: 50px 5% 0px 5%;
 	position: relative;
 }
+.dentist-image {
+    width: 500px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    
+  }
+  .dentist-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .slider-container {
+    width: 38%; /* Adjust the width as needed */
+    margin: 0 auto;
+  }
+  
+  
 
 .about-text{
     width: 45%;
