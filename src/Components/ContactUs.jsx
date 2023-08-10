@@ -47,7 +47,7 @@ function ContactUs() {
 
      
 
-      <div id='map' style={{ height: '400px', width: '60%' }}></div>
+      <div id='map' style={{ height: '600px', width: '80%' }}></div>
       
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', fontFamily: 'Lato, sans-serif' }}>
 
