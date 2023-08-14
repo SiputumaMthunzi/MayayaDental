@@ -39,14 +39,15 @@ function Ourdentist() {
             {/* Add more images as needed */}
           </Slider>
         </div>
-        <div className="dentist-info" style={{ textAlign: 'center', padding: '20px', fontWeight: 'bold' }}>
-          <p>
-            <strong>Dr. Lwando Mayaya</strong> is a skilled and compassionate dentist with a degree in Dentistry from the University of Western Cape. <br />
-            He is dedicated to providing top-quality dental care, staying up-to-date with the latest advancements in the field.
-            <br /> Dr. Mayaya creates a welcoming environment for his patients and excels in general dentistry, preventive care, and cosmetic procedures.
-            Outside of his practice, he actively supports community dental health programs.
-          </p>
-        </div>
+        <div className="dentist-info" style={{ textAlign: 'center', padding: '20px', fontWeight: 'bold', fontSize: '20px' }}>
+  <p>
+    <strong>Dr. Lwando Mayaya</strong> is a skilled and compassionate dentist with a degree in Dentistry from the University of Western Cape. <br />
+    He is dedicated to providing top-quality dental care, staying up-to-date with the latest advancements in the field.
+    <br /> Dr. Mayaya creates a welcoming environment for his patients and excels in general dentistry, preventive care, and cosmetic procedures.
+    Outside of his practice, he actively supports community dental health programs.
+  </p>
+</div>
+
       </div>
     </div>
   );

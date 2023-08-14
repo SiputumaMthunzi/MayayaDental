@@ -49,7 +49,7 @@ function OurServices() {
           </tbody>
         </table>
       </div>
-      <button onClick={toggleShowMore} >
+      <button  className="services-button" onClick={toggleShowMore} >
         {showMore ? 'Hide Services' : 'View More Services'}
       </button>
     </div>

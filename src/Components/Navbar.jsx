@@ -27,11 +27,10 @@ function Navbar() {
        </label>
        <ul className='menu'>
            <li><Link to='main'>Home</Link></li>
-           <li><Link to='treatments'>Treatments</Link></li>
-           <li><Link to='services'>Previous Work</Link></li>
+           <li><Link to='services'>Our Services</Link></li>
            <li><Link to='about'>About</Link></li>
             <li><Link to='info'>Our Dentist</Link></li>
-           <li><Link to='contact'>Contact</Link></li>
+           <li><Link to='contact'>Contact Us</Link></li>
         
        </ul>
     </nav>

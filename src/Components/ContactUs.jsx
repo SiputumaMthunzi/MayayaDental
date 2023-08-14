@@ -42,29 +42,54 @@ function ContactUs() {
   
 
   return (
-    <div id='contact'>
+    <div id='contact' >
       <h1>CONTACT US</h1>
 
-     
-
       <div id='map' style={{ height: '600px', width: '80%' }}></div>
-      
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', fontFamily: 'Lato, sans-serif' }}>
 
-      <div style={{ backgroundColor: 'rgba(0, 195, 255, 0.7)', padding: '20px', borderRadius: '10px', boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.2)', width: '100%', maxWidth: '1000px', textAlign: 'center' }}>
-  <p style={{ fontWeight: 'bold', fontSize: '18px' }}>Contact Information:</p>
-  <p style={{ fontSize: '16px' }}>Phone: 0450110177</p>
-  <p style={{ fontSize: '16px' }}>Cell/WhatsApp: 0748081306</p>
-  <p style={{ fontSize: '16px' }}>Address: Warner Rd, Engcobo, 5050, South Africa</p>
-</div>
+    
+        <h2>Contact Us</h2>
+        <form>
+          <input type="text" placeholder="Full Name" required/>
+          <input type="email" placeholder="Type your E-mail" required/>
+          <textarea placeholder="Write here......." name="message"></textarea>
+          <input type="submit" value="send"/> 
 
-
-
-</div>
-
-
-     
+         </form>
+         <div class="contact-card-container">
+    <div class="contact-card">
+    <i class="fas fa-map-marker-alt"></i> 
+        <h2>Address</h2>
+        <p><b>Address no.1- 408 Ian's Lane, Dutywa Medical Centre, Idutywa, 5000.</b></p>
+        <p><b>Address no2. Shop 2, Warner street, eNgcobo, 5050</b></p>
     </div>
+    <div class="contact-card">
+    <i class="fas fa-phone"></i>
+        <h2>Contact details</h2>
+        <p><b>Tel.: 0450110177</b></p>
+        <p><b>Cell & WhatsApp: 0748081306</b></p>
+    </div>
+    <div class="contact-card">
+    <i class="fas fa-clock"></i>
+        <h2>Operating hours</h2>
+        <p><b>Monday - Friday</b></p>
+        <p><b>09h00 - 17h00</b></p>
+        <p><b>Saturdays - 09h00-13h00</b></p>
+        <p><b>Sunday & Holidays - CLOSED</b></p>
+        
+    </div>
+</div>
+
+<footer className='footer'>
+  {/* ... other links */}
+  <p>Copyright © 2023 All Rights Reserved</p>
+  <p>Designed by Siputuma Designs</p>
+  <a href="/privacy-policy">Privacy Policy</a> |
+  <a href="/terms-and-conditions">Terms and Conditions</a>
+  
+</footer>
+      </div>
+    
   );
 }
 
