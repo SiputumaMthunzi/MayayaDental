@@ -25,7 +25,7 @@ function ContactUs() {
 
     // Add markers for specific locations
     const locations = [
-      { lat: -31.670715, lng: 28.536686, title: 'Warner Rd, Engcobo, 5050, South Africa' },
+      { lat: -31.670715, lng: 28.536686, title: 'Warner Rd, Unit 2, Engcobo, 5050, South Africa' },
       { lat: -32.09474860046395, lng: 28.310833645620963, title: '408 Ian\'s Lane, Dutywa Medical Centre, Idutywa, 5000, South Africa' },
       // Add more locations as needed
     ];
@@ -60,14 +60,15 @@ function ContactUs() {
     <div class="contact-card">
     <i class="fas fa-map-marker-alt"></i> 
         <h2>Address</h2>
-        <p><b>Address no.1- 408 Ian's Lane, Dutywa Medical Centre, Idutywa, 5000.</b></p>
-        <p><b>Address no2. Shop 2, Warner street, eNgcobo, 5050</b></p>
+        <p><b> 408 Ian's Lane, Dutywa Medical Centre, Idutywa, 5000.</b></p>
+        <p><b> Warner street, Unit 2, eNgcobo, 5050</b></p>
     </div>
     <div class="contact-card">
     <i class="fas fa-phone"></i>
         <h2>Contact details</h2>
         <p><b>Tel.: 0450110177</b></p>
         <p><b>Cell & WhatsApp: 0748081306</b></p>
+        <p><b>Email : </b></p>
     </div>
     <div class="contact-card">
     <i class="fas fa-clock"></i>
@@ -84,8 +85,8 @@ function ContactUs() {
   {/* ... other links */}
   <p>Copyright © 2023 All Rights Reserved</p>
   <p>Designed by Siputuma Designs</p>
-  <a href="/privacy-policy">Privacy Policy</a> |
-  <a href="/terms-and-conditions">Terms and Conditions</a>
+   {/*<a href="/privacy-policy">Privacy Policy</a> |
+  <a href="/terms-and-conditions">Terms and Conditions</a>*/}
   
 </footer>
       </div>

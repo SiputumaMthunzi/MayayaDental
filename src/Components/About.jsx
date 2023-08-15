@@ -16,10 +16,10 @@ function About() {
       <div className='about-text'>
         <h1>LEARN MORE ABOUT US</h1>
         <p>
-          Welcome to MAYAYA DENTALS, where healthy smiles are our passion.
+          Welcome to Dr. S. MAYAYA DENTAL STUDIOS, where healthy smiles are our passion.
           Our experienced team is dedicated to providing you with exceptional dental care in a comfortable and friendly environment.
           From routine cleanings to cosmetic enhancements, we're here to help you achieve your best smile.
-          Schedule an appointment today and experience the difference at MAYAYA DENTALS.
+          Schedule an appointment today and experience the difference at Dr. S. MAYAYA DENTAL STUDIOS.
         </p>
 
         {/* Display the second text if showSecondText is true */}

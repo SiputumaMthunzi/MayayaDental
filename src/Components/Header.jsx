@@ -9,7 +9,7 @@ function Header() {
             <h1>Experience a Lot Brighter</h1>
             <p className='details'>Your trust and satisfaction are our top priorities. Experience exceptional service on your journey to success.</p>
             <br>
-            </br><h1><span>Dr Lwando Mayaya.</span></h1>
+            </br><h1><span>Dr Sisipho Mayaya.</span></h1>
         </div>
 
     </div>
