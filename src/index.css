@@ -203,6 +203,16 @@ nav .menu-btn,
     color: #ffffff;
 	background-color:#028ac9;
 }
+.send_btn{
+    margin-top: 20px;
+	width: 140px;
+	height: 45px;
+	border-radius: 10px;
+	border: none;
+    outline: none;
+    color: #ffffff;
+	background-color:#028ac9;
+}
 .services-button:hover{
     box-shadow: 5px 10px 30px rgba(1, 86, 243, 0.336);
 	background-color: rgb(0, 0, 0);

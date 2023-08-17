@@ -1,4 +1,7 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+
 
 function ContactUs() {
   useEffect(() => {
@@ -13,6 +16,20 @@ function ContactUs() {
       document.head.removeChild(script);
     };
   }, []);
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_nomudqn', 'template_mznwill', form.current, 'jVjEuMoV17C1qgUBe')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  };
 
   const initMap = () => {
     // Initialize Google Map
@@ -49,11 +66,14 @@ function ContactUs() {
 
     
         <h2>Contact Us</h2>
-        <form>
-          <input type="text" placeholder="Full Name" required/>
-          <input type="email" placeholder="Type your E-mail" required/>
+
+      
+        <form ref={form} onSubmit={sendEmail}>
+          <input type="text" placeholder="Full Name" required name='user_name'/>
+          <input type="email" placeholder="Type your E-mail"  name='user_email' required/>
+          <input type="text" placeholder="Subject"  name='subject' required/>
           <textarea placeholder="Write here......." name="message"></textarea>
-          <input type="submit" value="send"/> 
+          <input type="submit" value='send'/>
 
          </form>
          <div class="contact-card-container">
