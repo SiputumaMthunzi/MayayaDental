@@ -88,7 +88,8 @@ function ContactUs() {
         <h2>Contact details</h2>
         <p><b>Tel.: 0450110177</b></p>
         <p><b>Cell & WhatsApp: 0748081306</b></p>
-        <p><b>Email : </b></p>
+        <p><b>Email: <a href="mailto:drsisisphomayaya@mayayadental.com">drsisisphomayaya@mayayadental.com</a></b></p>
+
     </div>
     <div class="contact-card">
     <i class="fas fa-clock"></i>
