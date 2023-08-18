@@ -7,16 +7,16 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBS_k_CgHFBcWOmxGVJ3JCseABGjnMLvpM",
-  authDomain: "mayaya-dentals.firebaseapp.com",
-  projectId: "mayaya-dentals",
-  storageBucket: "mayaya-dentals.appspot.com",
-  messagingSenderId: "1030342234482",
-  appId: "1:1030342234482:web:df12593d7ab4356d2ccdeb",
-  measurementId: "G-G9229VBPQP"
+  apiKey: "AIzaSyCA8fVHz_LaTRcVJwwoUOJ_cwt2lGgn5pg",
+  authDomain: "mayaya-dental-studios.firebaseapp.com",
+  projectId: "mayaya-dental-studios",
+  storageBucket: "mayaya-dental-studios.appspot.com",
+  messagingSenderId: "520538432280",
+  appId: "1:520538432280:web:33317f6b4dbd46d561b46d"
 };
 
 // Initialize Firebase
 const firebase = initializeApp(firebaseConfig);
 //const analytics = getAnalytics(firebase);
 export default firebase;
+
