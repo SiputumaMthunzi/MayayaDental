@@ -94,8 +94,7 @@ function ContactUs() {
     <div class="contact-card">
     <i class="fas fa-clock"></i>
         <h2>Operating hours</h2>
-        <p><b>Monday - Friday</b></p>
-        <p><b>09h00 - 17h00</b></p>
+        <p><b>Monday - Frida - 09h00 - 17h00</b></p>
         <p><b>Saturdays - 09h00-13h00</b></p>
         <p><b>Sunday & Holidays - CLOSED</b></p>
         
