@@ -22,22 +22,30 @@ function OurServices() {
       <div className='a-container'>
         <table>
           <tbody>
-            <tr>
+          <tr>
               <td>
                 <Servicebox image={fimage1} title="Restorations" />
               </td>
               <td>
                 <Servicebox image={fimage2} title="Dentures" />
               </td>
+             
+            </tr>
+            {showMore && (
+            <tr>
               <td>
                 <Servicebox image={fimage3} title="Grills" />
               </td>
-            </tr>
-            {showMore && (
-              <tr>
-                <td>
+              <td>
                   <Servicebox image={fimage4} title="Crown And Bridges" />
                 </td>
+            
+            </tr>
+            )}
+            
+            {showMore && (
+              <tr>
+                
                 <td>
                   <Servicebox image={fimage5} title="Whitening" />
                 </td>

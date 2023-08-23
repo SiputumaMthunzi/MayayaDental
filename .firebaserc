@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "mayaya-dental-studios"
-  }
+    "default": "mayaya-dental-studios",
+    "Mayaya": "mayaya-dental-studios"
+  },
+  "targets": {},
+  "etags": {}
 }
